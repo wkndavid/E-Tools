@@ -10,13 +10,14 @@
                     </a>
                 </div>
 
-                <!-- Navigation Links -->
+                <!-- Botão Cursos -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Cursos') }}
-                        <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Atividades') }}
                     </x-nav-link>
+               <!-- Botão Atividades -->         
+                    <x-nav-link :href="route('activities')" :active="request()->routeIs('activities')">
+                        {{ __('Atividades') }}
                     </x-nav-link>
                 </div>
             </div>
