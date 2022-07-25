@@ -5,14 +5,97 @@
         </h2>
     </x-slot>
 
-    <div class="py-6">
+   
+    <div class="py-6 " > 
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white card shadow-sm sm:rounded-lg">
-                <div class="p-6 bg-white border-b border-gray-200">
-                   <p>Atividades +</p>
-                </div>
+            <div class="bg-white card sm:rounded-lg">
+                <x-nav-link :href="route('teste')" :active="request()->routeIs('teste')">
+                    <div class="p-6 bg-white border-b border-gray-200">
+                        <div>
+                        Atividades +
+                        </div>
+                    </div>
+                </x-nav-link>
+            </div>
+        </div>
+    </div> 
+    <div class="py-6 " > 
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white card sm:rounded-lg">
+                <x-nav-link :href="route('teste')" :active="request()->routeIs('teste')">
+                    <div class="p-6 bg-white border-b border-gray-200">
+                        <div>
+                        Atividades +
+                        </div>
+                    </div>
+                </x-nav-link>
+            </div>
+        </div>
+    </div> 
+    <div class="py-6 " > 
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white card sm:rounded-lg">
+                <x-nav-link :href="route('teste')" :active="request()->routeIs('teste')">
+                    <div class="p-6 bg-white border-b border-gray-200">
+                        <div>
+                        Atividades +
+                        </div>
+                    </div>
+                </x-nav-link>
             </div>
         </div>
     </div>
-
+    <div class="py-6 " > 
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white card sm:rounded-lg">
+                <x-nav-link :href="route('teste')" :active="request()->routeIs('teste')">
+                    <div class="p-6 bg-white border-b border-gray-200">
+                        <div>
+                        Atividades +
+                        </div>
+                    </div>
+                </x-nav-link>
+            </div>
+        </div>
+    </div> 
+    <div class="py-6 " > 
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white card sm:rounded-lg">
+                <x-nav-link :href="route('teste')" :active="request()->routeIs('teste')">
+                    <div class="p-6 bg-white border-b border-gray-200">
+                        <div>
+                        Atividades +
+                        </div>
+                    </div>
+                </x-nav-link>
+            </div>
+        </div>
+    </div> 
+    <div class="py-6 " > 
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white card sm:rounded-lg">
+                <x-nav-link :href="route('teste')" :active="request()->routeIs('teste')">
+                    <div class="p-6 bg-white border-b border-gray-200">
+                        <div>
+                        Atividades +
+                        </div>
+                    </div>
+                </x-nav-link>
+            </div>
+        </div>
+    </div> <div class="py-6 " > 
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white card sm:rounded-lg">
+                <x-nav-link :href="route('teste')" :active="request()->routeIs('teste')">
+                    <div class="p-6 bg-white border-b border-gray-200">
+                        <div>
+                        Atividades +
+                        </div>
+                    </div>
+                </x-nav-link>
+            </div>
+        </div>
+    </div> 
+    
+    
 </x-app-layout>
