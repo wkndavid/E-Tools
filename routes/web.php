@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CourseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,5 +30,8 @@ Route::get('/description', function () {
     return view('description');
 })->middleware(['auth'])->name('description');
 
+// Route::get('/courses/activies', 'CourseController@activies')->name('courses.activies');
+
+Route::get('courses/activies', [CourseController::class, 'activies']);
 
 require __DIR__.'/auth.php';
