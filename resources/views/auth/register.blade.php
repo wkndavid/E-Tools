@@ -60,9 +60,9 @@
             <label for="">Cursos</label>
             <select class="form-select" aria-label="Default select example">
                 <option selected>Selecione</option>
-                <option value="1">Designer Gráfico</option>
-                <option value="2">Analise e Desenvolvimento de Sistemas</option>
-                <option value="3">Arquitetura</option>
+                <option value="0">Designer Gráfico</option>
+                <option value="1">Analise e Desenvolvimento de Sistemas</option>
+                <option value="2">Arquitetura</option>
                 <option value="3">DevOps</option>
             </select>
 
