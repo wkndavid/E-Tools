@@ -25,9 +25,9 @@ Route::get('/activities', function () {
     return view('activities');
 })->middleware(['auth'])->name('activities');
 
-Route::get('/teste', function () {
-    return view('teste');
-})->middleware(['auth'])->name('teste');
+Route::get('/description', function () {
+    return view('description');
+})->middleware(['auth'])->name('description');
 
 
 require __DIR__.'/auth.php';
