@@ -4,9 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes; 
-
-class Course extends Model
+use Illuminate\Database\Eloquent\SoftDeletes;
+ 
+class Activity extends Model
 {
     use HasFactory, SoftDeletes;
 
@@ -18,6 +18,5 @@ class Course extends Model
     protected $fillable = [
         'name',
         'description',
-        'activity_id', // for select modal
     ];
 }

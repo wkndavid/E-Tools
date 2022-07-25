@@ -9,10 +9,14 @@ class DatabaseSeeder extends Seeder
     /**
      * Seed the application's database.
      *
+     * Para tabela seeder ser executada, deve estar neste callback abaixo.
+     * 
      * @return void
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        $this->call(UserTableSeeder::class);
+        $this->call(ActivitySeeder::class);
+        $this->call(CourseSeeder::class);
     }
 }

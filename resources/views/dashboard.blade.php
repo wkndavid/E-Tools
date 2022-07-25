@@ -9,7 +9,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white card shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                   Designer Gráfico
+                   Antônio José
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white card shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                   Análise e Desenvolvimento de Sistemas
+                   Maria G
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white card shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200 ">
-                    Arquitetura
+                    João P
                 </div>
             </div>
         </div>

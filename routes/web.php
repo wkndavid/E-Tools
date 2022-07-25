@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CourseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,5 +26,14 @@ Route::get('/activities', function () {
     return view('activities');
 })->middleware(['auth'])->name('activities');
 
+Route::get('/description', function () {
+    return view('description');
+})->middleware(['auth'])->name('description');
+
+Route::get('/register', function () {
+    return view('description');
+})->middleware(['auth'])->name('description');
+
+Route::get('courses/activies/{activity-id}', [CourseController::class, 'activies']);
 
 require __DIR__.'/auth.php';
