@@ -18,5 +18,6 @@ class Course extends Model
     protected $fillable = [
         'name',
         'description',
+        'activity_id', // for select modal
     ];
 }
