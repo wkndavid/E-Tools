@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Cursos') }}
+            {{ __('Cursos em Andamento') }}
         </h2>
     </x-slot>
     
@@ -16,7 +16,7 @@
         <div class="modal-content">
         <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Cadastrar Novo Curso</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>    
         </div>
         <div class="modal-body">
             <form>
@@ -28,12 +28,13 @@
                 <label for="message-text" class="col-form-label">Descrição do Curso:</label>
                 <textarea class="form-control" id="message-text"></textarea>
             </div>
-            </form>
+            
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
             <button type="button" class="btn btn-primary">Cadastrar curso</button>
         </div>
+        </form>
         </div>
     </div>
     </div>

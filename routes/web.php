@@ -30,6 +30,10 @@ Route::get('/description', function () {
     return view('description');
 })->middleware(['auth'])->name('description');
 
-Route::get('courses/activies', [CourseController::class, 'activies']);
+Route::get('/register', function () {
+    return view('description');
+})->middleware(['auth'])->name('description');
+
+Route::get('courses/activies/{activity-id}', [CourseController::class, 'activies']);
 
 require __DIR__.'/auth.php';

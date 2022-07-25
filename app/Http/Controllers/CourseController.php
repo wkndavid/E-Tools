@@ -86,4 +86,8 @@ class CourseController extends Controller
     public function activies(){
         return view('description');
     }
+
+    public function registerCourse(Request $request){
+        dd($request);
+    }
 }

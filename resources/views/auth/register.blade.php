@@ -55,7 +55,7 @@
                                 name="telefone_confirmation" required />
             </div>
 
-            <!-- Down -->
+            <!-- Cursos -->
             
             <label for="">Cursos</label>
             <select class="form-select" aria-label="Default select example">
@@ -66,7 +66,7 @@
                 <option value="3">DevOps</option>
             </select>
 
-            <!-- Cursos -->
+            <!--  -->
             <div class="flex items-center justify-end mt-4">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
                     {{ __('Already registered?') }}

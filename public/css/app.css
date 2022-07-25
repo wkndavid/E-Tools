@@ -82,7 +82,11 @@ h6 {
 /*
 Estilos Adicionados
 */
-
+.botao-novo {
+  padding-right: 185px;
+  display: flex;
+  flex-direction: row-reverse;
+}
 .phar{
   padding-left: 45px !important;
 }
